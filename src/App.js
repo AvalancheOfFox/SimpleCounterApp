@@ -23,10 +23,17 @@ class Counter extends React.Component {
       count: 0
     })
   }
+
+  componentDidMount(){
+    this.timer = setInterval(this.increment, 1000)
+  }
+
+  componentWillUnmount(){
+    clearInterval(this.timer)
+  }
   
 
   render(){
-
   return (
     <div>
     <div className="main">

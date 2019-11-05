@@ -16,3 +16,15 @@ h1{
 position: relative;
 transform: translateX(33%);
 }
+
+#increment{
+  background-color: #96E6B3;
+}
+
+#decrement{
+  background-color: #DA3E52;
+}
+
+#reset{
+  background-color: #FFE66D;
+}
